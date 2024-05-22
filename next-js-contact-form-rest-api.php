@@ -30,3 +30,20 @@
  defined('ABSPATH') or die();
 
 
+ // composer autoload
+
+if ( file_exists( dirname( __FILE__ ) . '/vendor/autoload.php' ) ) {
+
+	require_once dirname( __FILE__ ) . '/vendor/autoload.php';
+
+}
+
+
+use App\Admin\SecretKeyController;
+use App\Admin\MenusController;
+
+
+new SecretKeyController;
+new MenusController;
+
+
