@@ -13,7 +13,7 @@ class MenusController {
 
     public function addMenu(){
         add_menu_page( 
-            __( 'Rest API settings', 'textdomain' ),
+            __( 'Rest API settings' ),
             'Rest API settings',
             'manage_options',
             'next-js-rest-api-settings',
