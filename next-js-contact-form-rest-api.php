@@ -41,9 +41,10 @@ if ( file_exists( dirname( __FILE__ ) . '/vendor/autoload.php' ) ) {
 
 use App\Admin\SecretKeyController;
 use App\Admin\MenusController;
+use App\Admin\FormCPTController;
 
 
 new SecretKeyController;
 new MenusController;
-
+new FormCPTController;
 

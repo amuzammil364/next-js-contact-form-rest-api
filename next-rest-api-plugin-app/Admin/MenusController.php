@@ -26,7 +26,10 @@ class MenusController {
     public function next_js_rest_api_settings_page_content() {
         echo "<h2>Rest API Secret Key</h2>";
         echo "<p>please add the below key to your requst parameter as <strong>token</strong><br> </p>";
-        echo $this->secret_key;
+        echo "<p><strong>KEY</strong> => ".$this->secret_key."</p>";
+        echo "<p><strong>Rest API Endpoint</strong> => ".site_url()."/wp-json/muzammil/v1/contact-form</p>";
+        ;
+
     }
 
 
